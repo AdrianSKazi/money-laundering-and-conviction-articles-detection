@@ -1,7 +1,6 @@
 # money-laundering-and-conviction-articles-detection
 
 ## Data science interview task:
-
 <i>Please provide a model, which can classify whether a news piece describes money laundering
 
 activity or not. Also, if it does, please provide info whether it is in allegations/accusations/charges or conviction/sentencing context.
@@ -23,6 +22,7 @@ Deadline: You will have 7 business days to complete the task.</i>
 
 --------------------------------
 ------------
+## Model description
 
 Application created for money laundering articles detection, then from positive detection of whether conviction or allegation.
 
@@ -37,3 +37,15 @@ To make it work I will use 2 models trained on 2 separate datasets.
 * 2 dataset is assembled of 20 articles with allegations or convictions. Thats how model will learn how to distinguish convictions from allegations. All variables' names belonging to this model start from 'ind' from Indictment.
 
 After creating two separate models I will use them accordingly on the new articles df assembled from articles without labels. Thus, ml_model will be launched on the articles df first to filter out money activity articles only, creating ml_model df. Subsequently ind_model will separate allegations articles and conviction articles from ml_mode df, creating final ind_model df. All can be run through Application.
+
+--------------
+------------
+## Files descriptions:
+
+* application dataset input - 3 necessery files to run the application
+* articles dataset (no labels) - 14 articles to verify in the application
+* saved models
+      **ml_model - money laundering detection model
+      **ind_model - conviction or allegation detection model
+* .ipynb - notebook
+* train dataset - training articles. Includes 2 sheets 1 for money laundering detection training and 2 for conviction detection training.
