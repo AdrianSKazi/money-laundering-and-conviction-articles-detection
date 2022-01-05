@@ -1,27 +1,5 @@
 # money-laundering-and-conviction-articles-detection
 
-## Data science interview task:
-<i>Please provide a model, which can classify whether a news piece describes money laundering
-
-activity or not. Also, if it does, please provide info whether it is in allegations/accusations/charges or conviction/sentencing context.
-
-
-You will need to compile the necessary training data yourself. However, the data size can be small (10-20 examples is sufficient), but diverse enough to demonstrate the model’s workings. 
-
-Given the short timeframe you can limit the scope of the task as you see fit. However, you will
-
-be asked to justify each constraint later on.
-
-
-The code for the solution should be developed in Python and delivered as a script or jupyter
-
-notebook. You'll be evaluated on code quality and logic clarity but not on accuracy. Please provide the code and any additional artifacts you may generate in a single zip file.
-
-
-Deadline: You will have 7 business days to complete the task.</i>
-
---------------------------------
-------------
 ## Model description
 
 Application created for money laundering articles detection, then from positive detection of whether conviction or allegation.
