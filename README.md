@@ -2,7 +2,7 @@
 
 ## Model description
 
-Application created for money laundering articles detection, then from positive detection of whether conviction or allegation.
+Application created for money laundering articles detection, then from positively detected articles additional detection was provided wether the article was about conviction or allegation.
 
 *The aim of this model is not to achieve high accuracy but to present way of 
 solving mentioned problem. Accuracy probably will be low due to small amount of articles for training and it's labels.*
